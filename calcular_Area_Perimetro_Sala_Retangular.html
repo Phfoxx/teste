@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafios</title>
+</head>
+<body>
+
+<script>
+// Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, 
+// utilizando altura e largura que serão dadas como parâmetro.
+
+function calcularArea(a,l){
+
+    let area = a * l ; 
+
+    return area 
+}
+
+function calcularPerimetro(a,l){
+
+    let perimetro = 2 * (a+l); 
+
+    return perimetro
+}
+
+let altura = parseFloat(prompt("Digite a altura da sala retangular: ")); 
+let largura = parseFloat(prompt("Digite a largura da sala retangular: ")); 
+
+alert(`A área da sala retangular é ${calcularArea(altura,largura)}. O perímetro da sala retangular é ${calcularPerimetro(altura,largura)}`)
+
+</script>
+    
+</body>
+</html>

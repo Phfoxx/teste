@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafios</title>
+</head>
+<body>
+
+<script>
+//Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, 
+//em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+function calcularImc(){
+    let altura = parseFloat(prompt("Digite sua altura: ")); 
+    let peso = parseInt(prompt("Digite seu peso: ")); 
+    let imc = peso / (altura*altura)
+
+    return alert("Seu IMC é " + imc) 
+
+}
+
+calcularImc();
+
+
+</script>
+
+    
+</body>
+</html>

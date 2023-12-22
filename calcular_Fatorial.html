@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafios</title>
+</head>
+<body>
+
+<script>
+// Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+function calcularFatorial(n){
+
+    let cont = n-1 ;
+    let fatorial = n;  
+
+    while (cont >= 1){
+
+        fatorial = fatorial * cont;
+
+        cont = cont - 1;
+    }
+
+    return fatorial 
+}
+
+let numero = parseInt(prompt("Digite o número que será calculado a fatorial: ")); 
+
+alert("O fatorial de " + numero + " é " + calcularFatorial(numero)); 
+
+
+
+</script>
+
+    
+</body>
+</html>

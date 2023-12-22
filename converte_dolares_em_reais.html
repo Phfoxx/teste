@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafios</title>
+</head>
+<body>
+
+<script>
+// Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. 
+// Para isso, considere a cotação do dólar igual a R$4,80.
+
+function converter(n){
+
+    let valorEmReais = n * 4.80 ;
+
+    return valorEmReais 
+}
+
+let valorEmDolares = parseFloat(prompt("Digite o dolares que devem ser convertido em reais: ")); 
+
+alert(`Convertendo ${valorEmDolares} dolares em reais fica R$ ${converter(valorEmDolares)}`)
+
+</script>
+    
+</body>
+</html>
